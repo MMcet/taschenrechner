@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { AdditionService } from '../services/addition.service';
+import { CalculationService } from '../services/calculation.service';
 
 @Component({
     imports: [FormsModule],
@@ -13,7 +13,7 @@ export class Taschenrechner {
     public inputB: number = 0;
     public result: number = 0;
 
-    private additionService = inject(AdditionService);
+    private additionService = inject(CalculationService);
 
     public add(): void {
         this.result = this.additionService.add(this.inputA, this.inputB);
