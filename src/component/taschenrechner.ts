@@ -20,7 +20,7 @@ export class Taschenrechner {
     }
 
     public subtract(): void {
-        this.result = 2 * this.inputA;
+        this.result = this.additionService.subtract(this.inputA, this.inputB);
     }
 
     public multiply(): void {
