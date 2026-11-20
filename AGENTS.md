@@ -17,4 +17,3 @@
 
 ## Calculator behavior
 - Follow the arithmetic and UI behavior requested for the task.
-- Don’t assume an existing TODO or visibly buggy operation describes the intended behavior; verify it before changing or preserving it.
