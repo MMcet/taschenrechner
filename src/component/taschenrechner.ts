@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
+    imports: [FormsModule],
     selector: 'taschenrechner',
     templateUrl: './taschenrechner.html'
 })
